@@ -1,0 +1,114 @@
+body {
+    background-color: #659DBD;
+}
+
+.artem {
+    font-size: 30px;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+
+}
+
+.kino {
+    font-size: 30px;
+    color: gold;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+}
+
+.menu {
+    position: absolute;
+    word-spacing: 35px;
+    top: 25px;
+    left: 210px;
+}
+
+.navbutton {
+    /* width: 166px;
+    height: 31px; */
+    border: none;
+    background-color: transparent;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.80;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbutton:hover {opacity: 1}
+
+.seansu_apzimejumi {
+    padding-left: 25px;
+    padding-top: 20px;
+    word-spacing: 74px;
+    color: #FFF;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.seans_rect {
+    height: 54px;
+    width: 860px;
+    background-color: transparent;
+    border: 2px solid #FFF;
+
+    color: #FFF;
+    font-family: 'Helvetica', sans-serif;
+    word-spacing: 60px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.movie_afishe {
+    width: 305px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.70);
+    background: url("/src/img/rg2.png"), lightgray 50% / cover no-repeat;
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+
+.par_mums_text {
+    width: 1117px;
+    height: 600px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content:left;
+    align-items: left;
+    line-height: normal;
+    letter-spacing: 0.525px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.par_mums_uppercase {
+    font-weight: 900;
+}
+
+.logreg_txt {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+}
